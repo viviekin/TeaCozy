@@ -1,0 +1,138 @@
+/* Universal Styles */
+
+* {
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img.image-content {
+  width: 300px;
+  height: auto;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+}
+
+header .logo {
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 150px;
+}
+
+span.info {
+  display: inline-block;
+  justify-content: flex-end;
+  height: 50px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+nav span {
+  display: inline-block;
+  width: 120px;
+  height: 44px;
+  align-items: center;
+}
+
+/* "Our Mission" Section */
+
+div.our-mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
+
+div.mission-text {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
+  height: 100px;
+}
+
+
+/* "Tea of the Month" Section */
+
+div.tom {
+  width: 1200px;
+}
+
+div.images {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img.images {
+  width: 300px;
+  height: 200px;
+}
+
+/* "Locations" Section */
+
+div.locations{
+  width: 1000px;
+  height: 500px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+h2.title {
+  color: white;
+  background-color: transparent;
+}
+
+div.container {
+  display: flex;
+}
+
+div.box {
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+}
+
+/* Footer Section */
+ footer {
+   height: 200px;
+   width: 100%;
+ }
+
+div.copyright {
+  padding-top: 20px;
+}
