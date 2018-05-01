@@ -8,19 +8,21 @@
   <body>
 
 <!-- Header Section -->
+
     <header>
       <div class="logo">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png">
       </div>
       <nav class="info">
-        <span><a href="#">Mission</a></span>
-        <span><a href="#">Featured Tea</a></span>
-        <span><a href="#">Locations</a></span>
+        <span><a href="#mission">Mission</a></span>
+        <span><a href="#featured-tea">Featured Tea</a></span>
+        <span><a href="#locations">Locations</a></span>
       </nav>
     </header>
 
 <!-- "Our Mission" Section -->
-    <div class="our-mission">
+
+    <div class="our-mission" id="mission">
       <div class="mission-text">
         <h2>Our Mission</h2>
         <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
@@ -28,66 +30,68 @@
     </div>
 
 <!-- "Tea of the Month" Section -->
-  <div class="tom">
+
+  <div class="tom" id="featured-tea">
     <div class="text-content" align="center">
       <h2>Tea of the Month</h2>
       <h4>What's Steeping at The Tea Cozy?</h4>
     </div>
 
-    <div class="image-content">
-      <div class="images">
+    <div class="tom-container">
+      <span class="tom-box">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" class="images">
-        <h4>Fall Berry Blitz Tea</h4>
-      </div>
-      <div class="images">
+        <h4> Fall Berry Blitz Tea</h4>
+      </span>
+      <span class="tom-box">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" class="images">
         <h4>Spiced Rum Tea</h4>
-      </div>
-      <div class="images">
+      </span>
+      <span class="tom-box">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" class="images">
         <h4>Seasonal Donuts</h4>
-      </div>
-      <div class="images">
+      </span>
+      <span class="tom-box">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg" class="images">
         <h4>Myrtle Ave Tea</h4>
-      </div>
-      <div class="images">
+      </span>
+      <span class="tom-box">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" class="images">
         <h4>Bedford Bizarre Tea</h4>
-      </div>
+      </span>
     </div>
   </div>
 
 <!-- "Locations" Section -->
 
-    <div class="locations">
+    <div class="locations" id="locations">
       <h2 class="title">Locations</h2>
 
-      <div class="container">
-        <div class="box">
+      <div class="locations-container">
+        <span class="locations-box">
           <h3>Downtown</h3>
           <p>384 West 4th St</p>
           <p>Suite 108</p>
           <p>Portland, Maine</p>
-        </div>
+        </span>
 
-        <div class="box">
+        <span class="locations-box">
           <h3>East Bayside</h3>
           <p>3433 Phisherman's Avenue</p>
           <p>(Northwest Corner)</p>
           <p>Portland, Maine</p>
-        </div>
+        </span>
 
-        <div class="box">
+        <span class="locations-box">
           <h3>Oakdale</h3>
           <p>515 Crescent Avenue</p>
           <p>Second Floor</p>
           <p>Portland, Maine</p>
-        </div>
+        </span>
       </div>
     </div>
 
 <!-- Footer Section -->
+
     <footer>
       <div class="contact" align="center">
         <h2>The Tea Cozy</h2>
@@ -96,7 +100,7 @@
       </div>
 
       <div class="copyright">
-        <p>copyright The Tea Cozy 2017</p>
+        <h5>copyright The Tea Cozy 2017</h5>
       </div>
     </footer>
   </body>

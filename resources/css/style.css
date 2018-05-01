@@ -27,104 +27,136 @@ p {
   font-size: 18px;
 }
 
-img.image-content {
-  width: 300px;
-  height: auto;
-}
-
 /* Header Section */
 
 header {
-  display: flex;
-  position: fixed;
-  height: 70px;
+  height: 69px; /* for some reason, the header is inherently smaller */
   width: 100%;
+  position: fixed;
   z-index: 10;
   border-bottom: 1px solid seashell;
+
 }
 
-header .logo {
-  display: inline-block;
-  height: 50px;
-  width: auto;
+div.logo {
+  height: 50px; /* the logo also shrinks */
   width: auto;
   padding-left: 10px;
   padding-right: 150px;
+  display: inline-flex;
+  float: left;
 }
 
-span.info {
-  display: inline-block;
+header nav.info {
+  height: 68px;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  height: 50px;
-  font-size: 18px;
-  text-decoration: underline;
 }
 
-nav span {
-  display: inline-block;
-  width: 120px;
-  height: 44px;
-  align-items: center;
+header nav span {
+  height: 68px;
+  width: 200px;
+  font-size: 26px;
+  text-decoration: underline;
+  text-align: center;
+  align-items: center; /* The text will not center vertically? */
 }
 
 /* "Our Mission" Section */
 
 div.our-mission {
-  display: flex;
   width: 1200px;
   height: 700px;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
-}
-
-div.mission-text {
-  display: block;
-  justify-content: center;
-  align-content: center;
-  width: 1200px;
-  height: 100px;
-}
-
-
-/* "Tea of the Month" Section */
-
-div.tom {
-  width: 1200px;
-}
-
-div.images {
-  display: inline-flex;
+  position: relative;
+  margin-top: 71px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-img.images {
+div.mission-text {
+  width: 1200px;
+  height: 130px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* "Tea of the Month" Section */
+
+.tom {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-content {
+  display: block;
+  width: 1000px;
+  height: 150px;
+}
+
+.tom-container {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+span.tom-box {
+  display: inline-block;
   width: 300px;
   height: 200px;
+  padding: 0 15px;
+}
+
+img.images {
+  width: 300px;
+  height: 170px;
+  margin-bottom: 10px;
 }
 
 /* "Locations" Section */
 
-div.locations{
-  width: 1000px;
+.locations {
+  width: 1200px;
   height: 500px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
 }
 
 h2.title {
+  display: block;
   color: white;
   background-color: transparent;
+  position: relative;
+  padding: 75px 530px 15px 530px;
 }
 
-div.container {
+.locations-container {
+  height: 300px;
+  width: 1200px;
+  background-color: transparent;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-div.box {
-  justify-content: center;
-  align-items: center;
+.locations-box {
   width: 300px;
   height: 300px;
-  margin: 15px 20px;
+  margin: 0 20px;
+  display: inline-block;
+  text-align: center;
+  align-items: center; /* The text will not center vertically? */
 }
 
 /* Footer Section */
